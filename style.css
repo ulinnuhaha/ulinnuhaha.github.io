@@ -34,9 +34,9 @@ p {
 
 .custom-line {
   width: 100%;           /* Full width of the container */
-  height: 5px;           /* Line thickness */
+  height: 10px;           /* Line thickness */
   background-color: #000;  /* Black color for the line */
-  margin: 10px 0;        /* Add some space above and below the line */
+  margin: 5px 0;        /* Add some space above and below the line */
 }
 
 .header-container {
