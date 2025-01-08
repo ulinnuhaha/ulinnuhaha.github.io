@@ -32,6 +32,13 @@ p {
   font-size: 18px;  /* You can adjust this value to whatever size you prefer */
 }
 
+.divider {
+  border: none;          /* Remove default styling */
+  border-top: 2px solid #000;  /* A solid black line */
+  width: 100%;           /* Full width of the container */
+  margin: 20px 0;        /* Add some space above and below the line */
+}
+
 .header-container {
   display: flex;
   justify-content: center;
