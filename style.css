@@ -247,7 +247,10 @@ footer a:hover {
   ul li {
     font-size: 16px;
   }
-
+  
+  .card {
+    padding: 15px;
+  }
   .card-title a {
     font-size: 18px;
   }
@@ -255,28 +258,5 @@ footer a:hover {
   .container {
     width: 95%;  /* Increased width for mobile */
     padding: 0 30px;  /* More padding on small screens */
-  }
-}
-
-@media (max-width: 480px) {
-  .header-text h1 {
-    font-size: 24px;  /* Adjust heading for smaller screens */
-  }
-
-  .subtitle {
-    font-size: 16px;
-  }
-
-  .card {
-    padding: 15px;
-  }
-
-  .card-title a {
-    font-size: 16px;
-  }
-
-  .container {
-    width: 100%;  /* Full width on very small screens */
-    padding: 0 20px;  /* Slightly smaller padding for very small screens */
   }
 }
