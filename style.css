@@ -36,7 +36,7 @@ p {
   width: 100%;           /* Full width of the container */
   height: 5px;           /* Line thickness */
   background-color: #000;  /* Black color for the line */
-  margin: 2px 0;        /* Add some space above and below the line */
+  margin: 10px 0;        /* Add some space above and below the line */
 }
 
 .header-container {
