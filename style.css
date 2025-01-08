@@ -32,11 +32,11 @@ p {
   font-size: 18px;  /* You can adjust this value to whatever size you prefer */
 }
 
-.divider {
-  border: none;          /* Remove default styling */
-  border-top: 5px solid #000;  /* A solid black line */
+.custom-line {
   width: 100%;           /* Full width of the container */
-  margin: 5px 5;        /* Add some space above and below the line */
+  height: 5px;           /* Line thickness */
+  background-color: #fff;  /* Black color for the line */
+  margin: 2px 0;        /* Add some space above and below the line */
 }
 
 .header-container {
