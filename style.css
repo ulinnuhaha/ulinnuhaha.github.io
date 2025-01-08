@@ -1,0 +1,275 @@
+/* General reset and font styling */
+* {
+  margin: 20;
+  padding: 25;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;  /* Modern font */
+  background-color: #f4f7fc;  /* Light gray background */
+  color: #333;
+  line-height: 1.6;
+  padding: 0 80px;  /* Increased padding for the body (Left and Right) */
+  overflow-x: hidden;  /* Prevent horizontal scroll */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;  /* Elegant font for headings */
+}
+
+/* Header Section Styles */
+header {
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);  /* Gradient background */
+  color: white;
+  text-align: center;
+  padding: 10px 10px;  /* Increased padding for header section */
+  position: relative;
+  border-bottom: 3px solid #1a73e8;
+}
+
+p {
+  font-size: 18px;  /* You can adjust this value to whatever size you prefer */
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  
+}
+
+.profile-img {
+  width: 180px;  /* Increased size */
+  height: 180px;  /* Increased size */
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);  /* Soft shadow for the photo */
+  margin-bottom: 20px;
+  border: 5px solid #fff;  /* White border around photo */
+}
+
+
+.header-text h1 {
+  font-size: 60px;  /* Larger font size */
+  margin: 20px 0 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.subtitle {
+  font-size: 30px;
+  font-weight: 500;
+  color: #d4d4d4;
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
+
+.header-text .affiliation {
+  margin-top: 10px;              /* Space between the title and affiliation */
+  font-size: 25px;               /* Slightly smaller font for affiliation */
+  color: #e9f4f5;                   /* Light gray color for affiliation text */
+  font-weight: 80;              /* Regular weight for affiliation */
+  line-height: 0.5;              /* Improve line spacing */
+  letter-spacing: 0.1px;         /* Slight letter-spacing for better readability */
+}
+/* Styling for the <a> link inside the affiliation */
+
+.header-text .affiliation a {
+  color: #b5c5d6;                /* Set the link color to light teal */
+  text-decoration: none;         /* Remove underline */
+  font-weight: 500;              /* Set font weight of the link */
+}
+
+/* Hover effect for the <a> link inside the affiliation */
+.header-text .affiliation a:hover {
+  color: #1ef11e;                /* Change color to white when hovered */
+  text-decoration: underline;    /* Underline the link on hover */
+}
+
+/* Section Titles with Icons */
+.section-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.section-header i {
+  font-size: 28px;
+  margin-right: 15px;
+  color: #1a73e8;  /* Icon color */
+}
+
+.section-title {
+  font-size: 32px;  /* Large section titles */
+  font-weight: 600;
+  color: #333;
+  text-transform: uppercase;
+  border-bottom: 2px solid #1a73e8;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+/* Section Content */
+/* Section Content */
+ul, .experience-list, .education-list {
+  list-style: none;                /* Remove default list bullets */
+  padding-left: 0;                  /* Remove left padding */
+  font-size: 18px;                  /* Set font size */
+  margin-bottom: 30px;              /* Bottom margin for spacing */
+  line-height: 1.8;                 /* Improve readability with line height */
+  font-family: 'Arial', sans-serif; /* Modern font family */
+}
+
+ul li, .experience-list li, .education-list li {
+  position: relative;               /* Relative positioning for the bullet */
+  margin-bottom: 15px;              /* Add space between list items */
+  padding-left: 35px;               /* Extra space for the bullet */
+}
+
+ul li::before, .experience-list li::before, .education-list li::before {
+  content: '\2022';                 /* Unicode bullet symbol */
+  color: #4CAF50;                   /* Green color for the bullet */
+  font-size: 20px;                  /* Set bullet size */
+  position: absolute;               /* Absolute positioning of bullet */
+  left: 0;                          /* Position bullet at the left */
+  top: 50%;                         /* Vertically center the bullet */
+  transform: translateY(-50%);      /* Fix vertical alignment */
+}
+
+ul li:hover, .experience-list li:hover, .education-list li:hover {
+  background-color: #f2f2f2;        /* Light background on hover */
+  cursor: pointer;                  /* Pointer cursor to show interactivity */
+  padding-left: 40px;                /* Increase left padding on hover */
+  transition: all 0.3s ease;         /* Smooth transition for hover effect */
+}
+
+ul li a, .experience-list li a, .education-list li a {
+  color: #007BFF;                    /* Link color */
+  text-decoration: none;             /* No underline by default */
+  transition: color 0.3s ease;       /* Smooth transition on hover */
+}
+
+ul li a:hover, .experience-list li a:hover, .education-list li a:hover {
+  color: #28a745;                    /* Change link color on hover */
+  text-decoration: underline;        /* Underline on hover */
+}
+
+
+.card-title a {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1a73e8;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.card-title a:hover {
+  color: #2575fc;  /* Hover effect for links */
+  text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 40px 40px;  /* Increased padding for footer */
+  background-color: #1a1a1a;
+  color: white;
+  position: relative;
+  margin-top: 50px;
+}
+
+footer a {
+  color: #1a73e8;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #90acc7;
+}
+
+/* Box Shadow Effect for Cards */
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 8px;
+  margin: 15px 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);  /* Soft shadow for cards */
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Adjust Content Width - Added for more padding and to avoid narrow appearance */
+.container {
+  width: 90%;
+  max-width: 1200px;  /* Max width to prevent excessive stretching on large screens */
+  margin: 0 auto;  /* Center the container */
+  padding: 0 40px;  /* Increased padding on the left and right for container */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .header-container {
+    padding: 30px;
+  }
+
+  .profile-img {
+    width: 150px;  /* Smaller photo for mobile */
+    height: 150px;
+  }
+
+  .header-text h1 {
+    font-size: 28px;
+  }
+
+  .subtitle {
+    font-size: 18px;
+  }
+
+  .section-title {
+    font-size: 24px;
+  }
+
+  ul li {
+    font-size: 16px;
+  }
+
+  .card-title a {
+    font-size: 18px;
+  }
+
+  .container {
+    width: 95%;  /* Increased width for mobile */
+    padding: 0 30px;  /* More padding on small screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .header-text h1 {
+    font-size: 24px;  /* Adjust heading for smaller screens */
+  }
+
+  .subtitle {
+    font-size: 16px;
+  }
+
+  .card {
+    padding: 15px;
+  }
+
+  .card-title a {
+    font-size: 16px;
+  }
+
+  .container {
+    width: 100%;  /* Full width on very small screens */
+    padding: 0 20px;  /* Slightly smaller padding for very small screens */
+  }
+}
