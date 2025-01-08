@@ -34,9 +34,9 @@ p {
 
 .divider {
   border: none;          /* Remove default styling */
-  border-top: 2px solid #000;  /* A solid black line */
+  border-top: 5px solid #000;  /* A solid black line */
   width: 100%;           /* Full width of the container */
-  margin: 20px 0;        /* Add some space above and below the line */
+  margin: 5px 5;        /* Add some space above and below the line */
 }
 
 .header-container {
